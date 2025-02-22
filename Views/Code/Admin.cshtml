@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<h2>Add Java Code</h2>
+<form method="post" asp-action="AddCode">
+    <input type="text" name="Key" placeholder="Enter key" required /><br />
+    <textarea name="JavaCode" placeholder="Enter Java code" required></textarea><br />
+    <button type="submit">Save</button>
+</form>

@@ -1,0 +1,15 @@
+﻿@model CodeStorageMVC.Models.CodeEntry
+
+@{
+    ViewData["Title"] = "Java Code";
+}
+
+
+@if (Model != null)
+{
+    <pre>@Model.JavaCode</pre>
+}
+else
+{
+    <p>No Java code found for this key.</p>
+}
